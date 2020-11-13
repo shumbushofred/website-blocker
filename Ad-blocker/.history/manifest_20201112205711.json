@@ -1,0 +1,12 @@
+{
+    "name": "Fred's website blocker",
+    "version":"1.0",
+    "description":"The extension blocks websites on a list",
+    "permission": ["webRequist", "WebRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts":["background.js"]
+    },
+    "icons": {
+        "16":
+    }
+}
